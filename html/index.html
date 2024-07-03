@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>game</title>
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!--bootstraplink-->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!--my css stylesheet-->
+  </head>
+  <body class="bg-dark">
+    <section id="home">
+      <header class="header-img"></header>
+      <!--&start nav-->
+      <nav
+        class="nerko-text-style navbar navbar-expand-lg bg-body-tertiary position-sticky top-0 z-3 rounded-3 p-2 w-75"
+      >
+        <div class="container-fluid text-white">
+          <div class="navbar-brand" href="#" class="d-flex">
+            <img src="../images/images2.png" alt="" class="logo-img h-25" />
+            GAME REVIEWS
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  category="mmorpg"
+                  >mmorpg</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" category="shooter">shooter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" category="sailing">sailing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" category="permadeath"
+                  >permadeath</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" category="superhero">superhero</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" category="pixel">pixel</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--&end nav-->
+      <!--&start the body of the home-->
+      <main class="container my-5">
+        <div class="position-relative">
+          <div class="row gy-4" id="DisplayGames"></div>
+        </div>
+      </main>
+    </section>
+    <section class=" d-none" id="details" >
+      <div class="container">
+         <header class=" justify-content-between position-relative pt-5">
+            <button class="btn-close btn-close-white position-absolute end-0" id="close"></button>
+         </header>
+         <div class="row g-4" id="displayDetails">
+         
+         </div>
+      </div>
+   </section>
+
+
+    <script src="../js/main.js" type="module"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

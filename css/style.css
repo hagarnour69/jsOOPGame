@@ -1,0 +1,45 @@
+/**---fonts--*/
+@font-face {
+  font-family: "nerko";
+  src: url(../webfonts/NerkoOne.ttf);
+}
+
+/**--main variables--*/
+:root {
+  /*^=====colors===*/
+  --navbar-bg-color: #3a497b;
+  --navbar-active-link: #09c;
+  /*^=====fonts===*/
+  --nerko-text-font: "nerko";
+  --navbar-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+}
+/**--endmain variables--*/
+.header-img {
+  height: 30vh;
+  background-image: url(../images/images1.png);
+  background-position: center;
+  background-size: cover;
+}
+.nerko-text-style {
+  font-family: var(--nerko-text-font),cursive ; 
+
+}
+.navbar {
+  box-shadow: var(--navbar-shadow);
+  background-color: rgb(58, 73, 123) !important;
+  margin: auto;
+  margin-top: -30px;
+  --bs-navbar-hover-color: var(--navbar-active-link);
+  --bs-navbar-active-color: var(--navbar-active-link);
+  --bs-navbar-brand-color: #ffff;
+  --bs-navbar-color: #fff;
+  
+  .logo-img {
+    width: 40px;
+  }
+}
+.card:hover
+{
+  transform: scale(1.02);
+  transition: transform 1s;
+}
